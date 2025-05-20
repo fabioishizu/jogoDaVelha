@@ -5,19 +5,19 @@ export default function board()
 {
     return <>
         <div className='board-row'>
-            <Square textSquare={'1'}/>
-            <Square textSquare={'2'}/>
-            <Square textSquare={'3'}/>
+            <Square/>
+            <Square/>
+            <Square/>
         </div>
         <div className='board-row'>
-            <Square textSquare={'4'}/>
-            <Square textSquare={'5'}/>
-            <Square textSquare={'6'}/>
+            <Square/>
+            <Square/>
+            <Square/>
         </div>
         <div className='board-row'>
-            <Square textSquare={'7'}/>
-            <Square textSquare={'8'}/>
-            <Square textSquare={'9'}/>
+            <Square/>
+            <Square/>
+            <Square/>
         </div>
     </>;
 }
